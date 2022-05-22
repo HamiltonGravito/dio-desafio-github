@@ -1,0 +1,54 @@
+body{
+    background-color: rgba(157, 194, 189, 0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+#first_title {
+    text-align: center;
+}
+
+#img_jesus_sinagoga{
+    border-radius: 50%;
+}
+
+#title, .subtitle, .post_title {
+    color: #0000FF;
+}
+
+.post_title {
+    font-size: 24px;
+    font-style: italic;
+}
+
+#img_galatas1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.versiculos {
+    text-align: center;
+    font-size: 18px;
+    background-color: azure;
+    /*padding: superior inferior esquerda direita*/
+    padding: 10px;
+    /*border: tamanho estilo cor - Obs.: Essas propriedades podem ser usadas para cada lado especifico da borda (top, right, bottom e left)*/
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.contacts_list{
+    list-style-type: none;
+}
+
+.contacts_list li {
+    position: relative;
+    float: right;
+    padding-right: 50px;
+}
+
+.contacts_list li a:hover {
+    font-size: 20px;
+    color: black;
+}
